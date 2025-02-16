@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi, I'm Leysan</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f8fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .hero {
+            width: 100%;
+            max-height: 400px;
+            background: url("") no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            position: relative;
+        }
+
+        .hero::after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            z-index: 2;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 10px;
+            color: #ddd;
+        }
+
+        .content {
+            width: 80%;
+            max-width: 1200px;
+            margin: 40px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .box {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .box:hover {
+            transform: translateY(-5px);
+        }
+
+        .box img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .box h3 {
+            margin-top: 15px;
+            color: #333;
+            font-size: 1.2em;
+        }
+
+        .box p {
+            color: #666;
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #d36b7b;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta:hover {
+            background-color: #b35562;
+        }
+
+        .contact {
+            background-color: #ffffff;
+            padding: 40px 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .contact h3 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .social-icons {
+            margin: 20px 0;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            display: inline-block;
+        }
+
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+        }
+
+        footer {
+            background-color: #ffffff;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>I am Leysan</h1>
+        <h2>Self-taught UX design & Web Development Enthusiast. </h2>
+    </header>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Welcome to My Portfolio</h1>
+            <h2>Explore My Professional Journey and Get In Touch</h2>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="box">
+            <img src="DALL·E 2024-09-07 Create a logo.png" alt="Design 1">
+            <h3>Case Study 1: Redesign of XYZ App</h3>
+            <p>Breve descrizione del case study, le sfide affrontate e le soluzioni proposte.</p>
+            <a href="#" class="cta">Scopri di più</a>
+        </div>
+
+        <div class="box">
+            <img src="DALL·E 2024-09-07 Create a logo.png" alt="Design 2">
+            <h3>Case Study 2: Miglioramento della UX per ABC Website</h3>
+            <p>Breve descrizione del case study, le sfide affrontate e le soluzioni proposte.</p>
+            <a href="#" class="cta">Scopri di più</a>
+        </div>
+
+        <div class="box">
+            <img src="DALL·E 2024-09-07 Create a logo.png" alt="Design 3">
+            <h3>Case Study 3: Creazione di una Nuova Esperienza per DEF App</h3>
+            <p>Breve descrizione del case study, le sfide affrontate e le soluzioni proposte.</p>
+            <a href="#" class="cta">Scopri di più</a>
+        </div>
+    </div>
+
+    <section class="contact">
+        <h3>Contact Me</h3>
+        <p>Feel free to reach out to discuss collaborations, or just to say hello!</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/leysan-nasretdinova-19869322a/" target="_blank"> 
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficons8.com%2Ficons%2Fset%2Flinkedin--black&psig=AOvVaw1sjQ_itT_tzqk5ChpooYN0&ust=1739610175339000&source=images&opi=89978449" alt="LinkedIn icon"> </a>
+            <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=leisan.nasretdinova@gmail.com" target="_blank">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fpng-iruoa&psig=AOvVaw3qTxDs6g9oayL9wA_H3vYG&ust=1739610190350000&source=images&opi=89978449" alt="Gmail icon"> </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Leysan - Tutti i diritti riservati</p>
+    </footer>
+</body>
+
+</html>
