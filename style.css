@@ -1,0 +1,156 @@
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f8fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.hero {
+    width: 100%;
+    max-height: 400px;
+    background: url("") no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+.hero::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 2;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #ddd;
+}
+
+.content {
+    width: 80%;
+    max-width: 1200px;
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+.box img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.box h3 {
+    margin-top: 15px;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.box p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d36b7b;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #b35562;
+}
+
+.contact {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    color: #777;
+    font-size: 0.9em;
+}
+</style>
