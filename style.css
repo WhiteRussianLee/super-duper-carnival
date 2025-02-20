@@ -22,7 +22,7 @@ header {
 .hero {
     width: 100%;
     max-height: 400px;
-    background: url("") no-repeat center center;
+    background: url("https://placehold.co/") no-repeat center center;
     background-size: cover;
     height: 400px;
     position: relative;
