@@ -24,6 +24,7 @@ header {
     max-height: 400px;
     background: url("https://placehold.co/") no-repeat center center;
     background-size: cover;
+    background-color: #a997bf;
     height: 400px;
     position: relative;
 }
