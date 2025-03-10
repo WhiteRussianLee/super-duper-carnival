@@ -26,10 +26,9 @@ header {
 
 .hero {
     width: 100%;
-    max-height: 400px;
-    background: no-repeat center center;
-    background-size: cover;
     height: 400px;
+    background: url("DALL·E 2024-09-06  A minimalistic banner.png") no-repeat center center;
+    background-size: cover;
     position: relative;
 }
 
